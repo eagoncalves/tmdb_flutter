@@ -1,4 +1,3 @@
-import 'package:flutter_tmdb/api/services/movies_service.dart';
 import 'package:flutter_tmdb/api/web_client.dart';
 
 class Movie {
@@ -36,13 +35,13 @@ class Movie {
         'genres': _genres,
       };
 
-  set genres(String value) => _genres = value;
+  setGenres(String value) => _genres = value;
 
-  set studios(String value) => _studios = value;
+  setStudios(String value) => _studios = value;
 
-  String get studios => _studios;
+  String getStudios() => _studios;
 
-  String get genres => _genres;
+  String getGenres() => _genres;
 
   @override
   String toString() {
@@ -70,8 +69,10 @@ double _getAverage(dynamic average) {
   }
 }
 
-String getAddtionInfo(int id, String field) {
-  MoviesService.getAdditionalInfo(id, field).then((string) {
-    return string;
-  }).catchError((error) => 'Not Informed');
-}
+// String getAddtionInfo(int id, String field) {
+//   MoviesService.getAdditionalInfo(id, field).then((string) {
+//     return string;
+//   }).catchError((error) {
+//     return 'Not informed';
+//   });
+// }

@@ -119,11 +119,11 @@ class _MovieListState extends State<MovieList> {
 
   _navigateToDetails(BuildContext context, {Movie selectedMovie}) {
     MoviesService.getAdditionalInfo(selectedMovie.id, 'studios')
-        .then((studios) => selectedMovie.studios = studios)
+        .then((studios) => selectedMovie.setStudios(studios))
         .then((result) => MoviesService.getAdditionalInfo(
               selectedMovie.id,
               'genres',
-            ).then((genres) => selectedMovie.genres = genres))
+            ).then((genres) => selectedMovie.setGenres(genres)))
         .then(
           (value) => Navigator.of(context).push(
             MaterialPageRoute(

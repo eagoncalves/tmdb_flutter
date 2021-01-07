@@ -107,14 +107,14 @@ class _Infos extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Studio',
-                  style: Theme.of(context).textTheme.body2,
+                  style: Theme.of(context).textTheme.bodyText2,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25.0),
                   child: Container(
                       width: 250,
                       child: Text(
-                        movie.studios,
+                        movie.getStudios(),
                         overflow: TextOverflow.fade,
                         maxLines: 1,
                         softWrap: false,
@@ -129,14 +129,14 @@ class _Infos extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Genre',
-                  style: Theme.of(context).textTheme.body2,
+                  style: Theme.of(context).textTheme.bodyText2,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25.0),
                   child: Container(
                       width: 250,
                       child: Text(
-                        movie.genres,
+                        movie.getGenres(),
                         overflow: TextOverflow.fade,
                         maxLines: 1,
                         softWrap: false,
@@ -151,7 +151,7 @@ class _Infos extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Release',
-                  style: Theme.of(context).textTheme.body2,
+                  style: Theme.of(context).textTheme.bodyText2,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 25.0),

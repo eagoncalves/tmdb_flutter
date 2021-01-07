@@ -18,12 +18,12 @@ class TheMovie extends StatelessWidget {
               side: BorderSide(color: Colors.transparent)),
         ),
         textTheme: TextTheme(
-          body1: TextStyle(
+          bodyText1: TextStyle(
               color: Colors.grey[300],
               fontSize: 16,
               letterSpacing: 1,
               height: 1.5),
-          body2: TextStyle(
+          bodyText2: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 17,
