@@ -22,9 +22,10 @@
    * [Technologies](#technologies)
 
 <h4 align="center"> 
-	🚧  Flutter project Under construction...  🚧
+	🚧   Flutter project Under construction...   🚧
 </h4>
 
 ### Features
-- [x] search movies.
-- [x] view movies details.
+- [] search movies.
+- [] view movies details.
+- [x] add new movies feature.
