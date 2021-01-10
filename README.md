@@ -26,6 +26,6 @@
 </h4>
 
 ### Features
-- [] search movies.
-- [] view movies details.
+- [-] search movies.
+- [-] view movies details.
 - [x] add new movies feature.
