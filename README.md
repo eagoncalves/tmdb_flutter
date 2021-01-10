@@ -1,9 +1,10 @@
 <h1 align = "center">
-  <a href="https://github.com/eagoncalves/tmdb_flutter">The Movide Data Base</a>
+  <a href="https://github.com/eagoncalves/tmdb_flutter">The Movie Data Base</a>
 </h1>
 
 <p align="center">App developed in flutter using the famous api TMDB</a>
 
+<br>
 <img src="https://img.shields.io/static/v1?label=TMDB&message=Flutter&color=7159c1&style=for-the-badge&logo=ghost"/>
 <img src="https://img.shields.io/github/issues/eagoncalves/tmdb_flutter"/>
 
